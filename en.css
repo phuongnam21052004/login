@@ -1,0 +1,60 @@
+html, body{
+    width: 100%;
+}
+.box{
+    text-align: center;
+    width: 400px;
+    height: auto;
+    padding: 25px;
+    position: absolute;
+    left: 50%; top:50%;
+    transform: translate(-50%,-50%);
+}
+.box input[type="password"], .box input[type="text"]{
+    background: none;
+    outline: none;
+    width: 210px;
+    height: 40px;
+    border-radius: 40px;
+    padding: 0px 15px;
+    margin: 15px 0px;
+    border: solid 2px #0d0d0e;
+    transition: 1s;
+}
+.box input[type="password"]:focus, .box input[type="text"]:focus{
+    width: 320px;
+    border-color: rgb(20, 22, 20);
+    transition: 1s;
+}
+button{
+    background: none;
+    outline: none;
+    width: 160px;
+    height: 40px;
+    border-radius: 40px;
+    margin: 15px 0px;
+    border: solid 2px #141616;
+    color: #fff;
+    font-size: 18px;
+    transition: 1s;
+}
+button i:hover{
+    background: #080808;
+    transition: 1s;
+}
+video{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;}
+.container{
+        position: relative;
+       height: 100vh;
+       text-align: center;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     }
+    
